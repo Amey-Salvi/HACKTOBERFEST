@@ -53,3 +53,28 @@ public class Hollow_Pyramid
     }
 }
 
+// Program in c
+#include<stdio.h>
+int main() {
+   int i,j,m=1,s,r;
+   printf("Enter height of pyramid:");
+   scanf("%d",&n);
+   printf("\n");
+   for(i=0;i<r;i++){
+       for(s=0;s<=r-i;s++){
+           printf(" ");
+           
+       }
+       for(j=0;j<=2*i;j++){
+           if ((j==0) || (j==2*i) || (i == r-1)){
+               printf("*");
+           }
+           else printf(" ");
+           
+       }
+       printf("\n");
+   }
+   return 0;
+}
+
+
